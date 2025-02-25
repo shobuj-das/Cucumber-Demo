@@ -3,10 +3,11 @@ package StepDefinations;
 import Pages.LoginPage;
 import io.cucumber.java.en.*;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
 
 import static Utilities.DriverSetup.getDriver;
 
-public class MyStepdefs {
+public class Login_Stepdefs {
     LoginPage loginPage = new LoginPage();
     @Given("User should be on the login page")
     public void userShouldBeOnTheLoginPage() {
